@@ -1,6 +1,7 @@
 <html>
 <head></head>
 <body>	
+
 <?php			
 function numbers(){
     	$i = 0;
@@ -50,6 +51,35 @@ $six = "three";
 $result = ($six == 7) ? " Way to go" : " This is a integer not a string";
 	echo "$result";
 
+class Person {
+    public $first_name = '';
+    public $last_name = '';
+    public function set_first_name($name) {
+        $this->first_name = $name;
+    }
+    public function set_last_name($name) {
+        $this->last_name = $name;
+    }
+}
 
+$ken = new Person;
+$ken->set_first_name('ken');
+$ken->set_last_name('koontz');
+var_dump($ken);
+
+class Vacation {
+    public $city = '';
+    public $state = '';
+    public $view = '';
+    public function __construct($city, $state, $view) {
+        echo "I'm creating a class\n";
+        $this->city = $city;
+        $this->state = $state;
+        $this->view = $view;
+    }
+}
+
+$dream = new Vacation('Port Orford', 'Oregon', 'Touch of Heaven');
+var_dump($dream);
 ?>
 </html>
