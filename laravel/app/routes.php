@@ -16,3 +16,7 @@ Route::get('/', function()
 	return View::make('scratchpad');
 
 });
+Route::get('/users', function()
+{
+    return 'Users!';
+});

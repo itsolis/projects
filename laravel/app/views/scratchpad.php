@@ -1,7 +1,6 @@
 <html>
 <head></head>
 <body>	
-
 <?php			
 function numbers(){
     	$i = 0;
