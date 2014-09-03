@@ -63,4 +63,3 @@ Route::post('/register', function() {
 
 Route::get('/home', function() {
 	return 'Welcome';
-});

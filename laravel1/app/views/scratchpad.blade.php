@@ -80,5 +80,6 @@ class Vacation {
 
 $dream = new Vacation('Port Orford', 'Oregon', 'Touch of Heaven');
 var_dump($dream);
+
 ?>
 </html>
